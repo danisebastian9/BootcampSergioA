@@ -30,7 +30,7 @@ public class App {
                 //Validamos la variable opcion: 
                 switch (opcion) {
                     case 1:
-                        System.out.println("Digite el nombre del cliente:");
+                        System.out.println("Digite el nombre del cliente: ");
                         String nombreCliente = datos.next();
                         colaClientes.add(nombreCliente);
                         System.out.println(nombreCliente + "ha sido agregado a la cola del banco");
