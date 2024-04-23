@@ -29,4 +29,6 @@ public class ArbolBinario {
     public void insertar(int numero){
         this.raiz = insertarRecursivo(raiz, numero); 
     }
+
+    
 }
